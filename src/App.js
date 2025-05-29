@@ -1,10 +1,13 @@
+// src/App.js
 import React from 'react';
-import HelloWorld from './helloworld';
+import Helloworld from './helloworld'; // Make sure this path is correct
+import Itemtest from './Itemtest';     // Same here
 
 function App() {
   return (
     <div>
-      <HelloWorld />
+      <Helloworld />
+      <Itemtest />
     </div>
   );
 }
